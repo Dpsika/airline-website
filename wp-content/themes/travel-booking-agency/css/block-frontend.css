@@ -1,0 +1,246 @@
+.travel-booking-agency-slider-section h1,.travel-booking-agency-popular-tour-section .tour-heading,.travel-booking-agency-popular-tour-section .post-section .is-layout-constrained h3,
+.travel-booking-agency-popular-tour-section .post-section  h4{
+    font-family: 'Lobster', cursive;
+}
+.travel-booking-agency-slider-section{
+    margin-bottom: 30px;
+}
+.travel-booking-agency-slider-section h1{
+    font-weight: 500;
+}
+.travel-booking-agency-slider-section h1:hover,.travel-booking-agency-popular-tour-section .tab-section p:hover{
+    color: #f44c28 !important;
+}
+.travel-booking-agency-slider-section .slider-button a{
+    padding: 10px 5px 10px 20px;
+    color: #222222 !important;
+    letter-spacing: 1px;
+    background-color: #fff !important;
+    font-weight: 500;
+}
+.travel-booking-agency-slider-section .slider-button a:after{
+    content: "\f061";
+    border-radius: 30px;
+    background: #f44c28;
+    padding: 10px;
+    color: #fff;
+    transition: all 0.4s ease;
+    font-weight: 900;
+    font-family: 'Font Awesome 5 Free';
+    margin-left: 10px;
+}
+.travel-booking-agency-slider-section .is-layout-flex .slider-section{
+    top: 55% !important;
+    transform: translateY(-50%);
+    bottom: auto;
+    padding: 0;
+    text-align: left;
+    left: 14%;
+    right: 50%;
+    position: absolute;
+}
+.travel-booking-agency-slider-section span{
+    background-color: transparent !important;
+    width: 100%;
+}
+.travel-booking-agency-popular-tour-section .tour-heading{
+    text-align: center;
+    margin-top: 15px;
+}
+.travel-booking-agency-popular-tour-section .tour-section{
+    padding: 0em;
+    margin-bottom: 30px;
+}
+.travel-booking-agency-popular-tour-section .tab-section{
+    border-radius: 20px 20px 0px 0px;
+    margin: 0px 15px;
+    padding: 10px;
+    border-bottom: 3px solid #f44c28;
+}
+.travel-booking-agency-popular-tour-section .tab-section .featured-tab:after{
+    content: "";
+    position: absolute;
+    right: auto;
+    left: 60px;
+    bottom: 5px;
+    width: 0;
+    height: 0;
+    border-bottom: 8px solid #f44c28;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    margin: -2px auto;
+}
+.travel-booking-agency-popular-tour-section .tab-section p{
+    padding: 7px;
+    margin: 0px;
+}
+.travel-booking-agency-popular-tour-section .post-col-section{
+    border: 1px solid #c8c5c5;
+}
+.travel-booking-agency-slider-section .sticker-slider{
+    letter-spacing: 1px;
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 5px;
+    width: 22%;
+    text-align: center;
+    rotate: -14deg;
+    margin-bottom: -9px;
+    z-index: 4;
+    position: relative;
+    text-transform: capitalize;
+}
+.travel-booking-agency-popular-tour-section .post-section .is-layout-constrained {
+    width: 55%;
+    bottom: -32px;
+    background: #f44c28;
+    left: 50%;
+    position: absolute;
+    height: 70px;
+    transform: translate(-50%);
+    clip-path: polygon(10% 0%, 90% 0%, 100% 55%, 0 56%);
+}
+.travel-booking-agency-popular-tour-section .post-section .is-layout-constrained h3{
+    padding: 0.3em 0em;
+    text-align: center;
+}
+.travel-booking-agency-popular-tour-section .post-section  h4{
+    text-align: center ;
+}
+.travel-booking-agency-popular-tour-section .post-section  p{
+    margin: 10px 0px;
+}
+.travel-booking-agency-popular-tour-section .post-section .post-content{
+    padding: 0px 15px;
+    gap: 1em;
+}
+.travel-booking-agency-popular-tour-section .admin-section p:before,.travel-booking-agency-popular-tour-section .location-section p:before,
+.travel-booking-agency-popular-tour-section .time-section p:before,.travel-booking-agency-popular-tour-section .rating-section p:before{    
+    font-family: 'Font Awesome 5 Free';
+    margin-right: 5px;
+}
+.travel-booking-agency-popular-tour-section .admin-section p:before{
+    content: "\f007";
+}
+.travel-booking-agency-popular-tour-section .location-section p:before{
+    content: "\f3c5";
+}
+.travel-booking-agency-popular-tour-section .time-section p:before{
+    content: "\f017";
+}
+.travel-booking-agency-popular-tour-section .rating-section p:before{
+    content: "\f118";
+}
+@media only screen and (max-width: 1024px) and (min-width: 1000px){
+    .travel-booking-agency-slider-section  .sticker-slider{
+        width: 40%;
+    }
+    .travel-booking-agency-slider-section img{
+        height: auto !important;
+    }
+    .travel-booking-agency-slider-section .is-layout-flex .slider-section{
+        top: 45% !important;
+    }
+    .travel-booking-agency-slider-section{
+        margin-bottom: -50px;
+    }
+    .travel-booking-agency-popular-tour-section .tab-section p{
+        font-size: 18px !important;
+    }
+    .travel-booking-agency-popular-tour-section .post-section .is-layout-constrained {
+        width: 90%;
+    }
+    .travel-booking-agency-popular-tour-section .post-section .post-content{
+        gap: 0.5em;
+        padding: 0px 4px;
+    }
+    .travel-booking-agency-popular-tour-section .tab-section{
+        gap: 0em;
+        padding: 0px;        
+    }
+    .travel-booking-agency-popular-tour-section .tab-section .featured-tab:after{
+        left: 50px;
+    }
+}
+@media only screen and (max-width: 768px) and (min-width: 720px){
+    .travel-booking-agency-slider-section .slider-para,.travel-booking-agency-slider-section  .sticker-slider{
+        display: none;
+    }
+    .travel-booking-agency-slider-section{
+        min-height: 400px !important;
+        margin-bottom: 0px;
+    }
+    .travel-booking-agency-slider-section img{
+        height: auto !important;
+    }
+    .travel-booking-agency-slider-section .is-layout-flex .slider-section{
+        top: 50% !important;
+        right: 20%;
+    }
+    .travel-booking-agency-popular-tour-section .tab-section p{
+        font-size: 15px !important;
+        padding: 5px 3px;
+    }
+    .travel-booking-agency-popular-tour-section .tab-section{
+        gap: 0em;
+        margin: 0px;
+        padding: 0px;
+    }
+    .travel-booking-agency-popular-tour-section .tab-section,.travel-booking-agency-popular-tour-section .post-section,
+    .travel-booking-agency-popular-tour-section .post-section .post-content{
+        flex-wrap: nowrap !important;
+    }
+    .travel-booking-agency-popular-tour-section .post-section .is-layout-constrained {
+        width: 100%;
+    }
+    .travel-booking-agency-popular-tour-section .post-section  h4{
+        font-size: 16px !important;
+    }
+    .travel-booking-agency-popular-tour-section .post-section .is-layout-constrained h3{
+        font-size: 18px !important;
+    }
+    .travel-booking-agency-popular-tour-section .post-section .post-content{
+        gap: 0.25em;
+        padding: 0px 5px;
+    }
+    .travel-booking-agency-popular-tour-section .post-section{
+        gap: 1.5em;
+    }
+    .travel-booking-agency-popular-tour-section .tab-section .featured-tab:after{
+        left: 30px;
+    }
+}
+@media only screen and (max-width: 425px) and (min-width: 320px){
+    .travel-booking-agency-slider-section img{
+        height: auto !important;
+    }
+    .travel-booking-agency-slider-section .slider-para,.travel-booking-agency-slider-section h1,.travel-booking-agency-slider-section .sticker-slider{
+        display: none;
+    }
+    .travel-booking-agency-slider-section .is-layout-flex .slider-section{
+        top: 35% !important;
+        right: 20%;
+        left: 27%;
+    }
+    .travel-booking-agency-slider-section{
+        min-height: 300px !important;
+        margin-bottom: -65px;
+    }
+    .travel-booking-agency-popular-tour-section .tab-section{
+        display: block;
+    }
+    .travel-booking-agency-popular-tour-section .post-section .is-layout-constrained {
+        width: 90%;
+    }
+    .travel-booking-agency-popular-tour-section .post-section h4{
+        font-size: 16px !important;
+    }
+    .travel-booking-agency-popular-tour-section .post-section .is-layout-constrained h3{
+        font-size: 18px !important;
+    }
+    .travel-booking-agency-popular-tour-section .post-section .post-content{
+        flex-wrap: nowrap !important;
+        padding: 0px 7px;
+        gap: 0em;
+    }   
+}

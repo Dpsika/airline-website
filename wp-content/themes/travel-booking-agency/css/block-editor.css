@@ -1,0 +1,158 @@
+.travel-booking-agency-slider-section h1,.travel-booking-agency-popular-tour-section .tour-heading,.travel-booking-agency-popular-tour-section .post-section .is-layout-constrained h3,
+.travel-booking-agency-popular-tour-section .post-section  h4{
+    font-family: 'Lobster', cursive;
+}
+.travel-booking-agency-slider-section h1,.travel-booking-agency-slider-section p{
+    margin: 0px;
+    padding: 0px;
+}
+.travel-booking-agency-slider-section .slider-blank{
+    display: none;
+}
+.travel-booking-agency-slider-section h1{
+    font-weight: 500;
+    line-height: 1.2;
+}
+.travel-booking-agency-slider-section h1:hover,.travel-booking-agency-popular-tour-section .tab-section p:hover{
+    color: #f44c28 !important;
+}
+.travel-booking-agency-slider-section .slider-button a{
+    padding: 10px 5px 10px 20px;
+    color: #222222 !important;
+    letter-spacing: 1px;
+    background-color: #fff !important;
+    font-weight: 500;
+}
+.travel-booking-agency-slider-section .wp-block-button__link:after{
+    content: "\f061";
+    border-radius: 30px;
+    background: #f44c28;
+    padding: 10px;
+    color: #fff;
+    transition: all 0.4s ease;
+    font-weight: 900;
+    font-family: 'Font Awesome 5 Free';
+    margin-left: 10px;
+    margin-right: -10px;
+}
+.travel-booking-agency-slider-section .is-layout-flex .slider-section{
+    top: 55% !important;
+    transform: translateY(-50%);
+    bottom: auto;
+    padding: 0;
+    text-align: left;
+    left: 14%;
+    right: 50%;
+    position: absolute;
+}
+.travel-booking-agency-slider-section .sticker-slider{
+    letter-spacing: 1px;
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 5px;
+    width: 22%;
+    text-align: center;
+    rotate: -14deg;
+    margin-top: -35px;
+    z-index: 4;
+    position: absolute;
+    text-transform: capitalize;
+    left: 2px;
+    right: auto;
+}
+.travel-booking-agency-popular-tour-section .tour-heading{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.travel-booking-agency-popular-tour-section .tours-tab{
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+.travel-booking-agency-popular-tour-section .tab-section{
+    border-radius: 20px 20px 0px 0px;
+    margin: 0px;
+    padding: 10px;
+    border-bottom: 3px solid #f44c28;
+}
+.travel-booking-agency-popular-tour-section .tour-section img{
+    height: 170px !important;
+}
+.travel-booking-agency-popular-tour-section .tab-section p{
+    margin: 0px;
+    padding: 0px;
+}
+.travel-booking-agency-popular-tour-section .post-section .is-layout-constrained{
+    width: 80%;
+    bottom: -32px;
+    background: #f44c28;
+    left: 50%;
+    position: absolute;
+    height: 70px;
+    transform: translate(-50%);
+    clip-path: polygon(10% 0%, 90% 0%, 100% 55%, 0 56%);
+}
+.travel-booking-agency-popular-tour-section .post-section .is-layout-constrained h3{
+    padding: 0em 2.5em;
+    margin: 0px !important;
+    font-weight: 500;
+}
+.travel-booking-agency-popular-tour-section .post-section h4{
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    font-weight: 500;
+}
+.travel-booking-agency-popular-tour-section .post-section .post-content{
+    margin: 15px 0px 0px 0px;
+    padding: 0px 10px;
+    gap: 0em;
+}
+.travel-booking-agency-popular-tour-section .post-section{
+    gap: 1em;
+}
+.travel-booking-agency-popular-tour-section .admin-section p:before,.travel-booking-agency-popular-tour-section .location-section p:before,
+.travel-booking-agency-popular-tour-section .time-section p:before,.travel-booking-agency-popular-tour-section .rating-section p:before{    
+    font-family: 'Font Awesome 5 Free';
+    margin-right: 5px;
+}
+.travel-booking-agency-popular-tour-section .admin-section p:before{
+    content: "\f007";
+}
+.travel-booking-agency-popular-tour-section .location-section p:before{
+    content: "\f3c5";
+}
+.travel-booking-agency-popular-tour-section .time-section p:before{
+    content: "\f017";
+}
+.travel-booking-agency-popular-tour-section .rating-section p:before{
+    content: "\f118";
+}
+.travel-booking-agency-popular-tour-section .post-col-section{
+    border: 1px solid #c8c5c5;    
+}
+.travel-booking-agency-popular-tour-section .post-col-section .wp-block-cover{
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+.travel-booking-agency-popular-tour-section .tab-section .featured-tab:after{
+    content: "";
+    position: absolute;
+    right: auto;
+    left: 30px;
+    bottom: -27px;
+    width: 0;
+    height: 0;
+    border-bottom: 8px solid #f44c28;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    margin: -2px auto;
+}
+.travel-booking-agency-slider-section h1:hover,.travel-booking-agency-popular-tour-section .tab-section p:hover{
+    color: #f44c28 !important;
+}
+.travel-booking-agency-slider-section .wp-block-button__link:hover{
+    background: #000 !important;
+    color: #fff !important;
+
+}
